@@ -4,12 +4,12 @@
 
 This repository contains exercises, code, and resources for the Machine Learning for Time Series (MLTS) course at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU). The course covers various techniques for analyzing and modeling time series data.
 
-The course is organized by:  
+### The course is organized by:  
 Machine Learning and Data Analytics Lab (MaDLab)  
 Department Artificial Intelligence in Biomedical Engineering (AIBE)  
 Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
-Links:  
+### Links:  
 * [StudOn](https://www.studon.fau.de/studon/goto.php?target=crs_5911979)
 * [StudOn Materials Only](https://www.studon.fau.de/studon/goto.php?target=crs_6083795)
 
@@ -28,6 +28,7 @@ You can find the nessesary requirements in the `requirements.txt` files of each 
 ## Installation
 
 <bash>
+
     # Clone the repo
     git clone https://github.com/username/mlts-exercises.git
     cd mlts-exercises
