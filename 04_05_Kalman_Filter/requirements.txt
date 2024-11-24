@@ -1,0 +1,5 @@
+matplotlib==3.9.2
+numpy==2.1.2
+ipykernel==6.29.5
+ipympl==0.9.4
+filterpy==1.4.5

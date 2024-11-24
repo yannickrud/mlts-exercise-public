@@ -1,0 +1,61 @@
+[flake8]
+
+#flake8 config file
+
+
+#more helpful output, no spam
+verbose = 2
+quiet = 0
+count = true
+show-source = false
+statistics = true
+
+#formatter to be used to display errors, can be used to create custom strings
+format = pylint
+
+
+
+#list of patterns of excluded files / directories
+exclude =
+	.git,
+	migrations,
+	__init__.py
+	settings_local.py
+	settings_base.py
+	settings_staging.py
+
+#list of patterns to include in checks (default)
+filename =
+	*.py
+
+
+
+#list of error codes to report (default)
+select = 
+	E,
+	F,
+	W,
+	C
+
+#list of error codes to ignore
+ignore = E731
+
+#additional list of ignored error codes that don't overwrite the original list
+extend-ignore =
+
+
+
+#maximum line length
+max-line-length = 200
+
+#maxiumum allowed complexity
+max-complexity = 15
+
+#enforce indentation of brackets (default)
+hang-closing = false
+
+#reports errors even if in the same line as a #NOQA comment
+disable-noqa = true
+
+#list of flake8 plugins to enable
+enable-extensions =

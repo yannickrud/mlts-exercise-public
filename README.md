@@ -19,6 +19,8 @@ The exercises are structured into six topics, with each topic beeing discussed o
 
 * [01_Introduction](./01_Introduction)
 * [02_03_Bayesian_Linear_Regression](./02_03_Bayesian_Linear_Regression)
+* [04_05_Kalman_Filter](./04_05_Kalman_Filter)
+* [06_07_Dynamic_Time_Warping](./06_07_Dynamic_Time_Warping)
 * ...
 
 ## Requirements
